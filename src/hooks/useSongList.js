@@ -11,7 +11,7 @@ const useSongList = () => {
     const movies = await fetch(url, options);
     const res = await movies.json();
     // console.log(res.results);
-    setList(res)
+    setList(res?.results)
   };
   return list;
 };
