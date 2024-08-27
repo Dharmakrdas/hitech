@@ -11,28 +11,13 @@ const Body = () => {
     <div className="w-3/4 m-auto">
       <p className="font-serif text-xl mt-7">{AppText.latest}</p>
       <div className="movies">
-        {result?.results.map((item) => (
+        { result &&  (result?.results.map((item) => (
           <div key={item.id}  >
             < SongsCard data={item} />
           </div>
-        ))}
+        )))} 
       </div>
-      <p className="font-serif text-xl mt-7">{AppText.top}</p>
-      <div className="movies">
-        {result?.results.map((item) => (
-          <div key={item.id}  >
-            < SongsCard data={item} />
-          </div>
-        ))}
-      </div>
-      <p className="font-serif text-xl">{AppText.hard_mix}</p>
-      <div className="movies">
-        {result?.results.map((item) => (
-          <div key={item.id}  >
-            < SongsCard data={item} />
-          </div>
-        ))}
-      </div>
+ 
     </div>
   );
 };
