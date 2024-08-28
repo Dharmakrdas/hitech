@@ -1,6 +1,8 @@
 import AppText from "./utils/app-text";
 import SongsCard from "./SongCard";
 import useSongList from "./hooks/useSongList";
+import ImageSlider from "./ImageSlider";
+import sliders from './mocks/image-slider-mock.json'
 
 
 const Body = () => {
@@ -8,8 +10,9 @@ const Body = () => {
   console.log(result);
   
 
-  return result.length === 0 ? <h1>Loafing ...</h1> : (
-    <div className="w-3/4 m-auto">
+  return result.length === 0 ? <h1>Loading ...</h1> : (
+    <div>
+      <ImageSlider data={sliders?.products} />
       <p className="font-serif text-xl mt-7">{AppText.latest}</p>
       <div className="movies">
         { result &&  (result.map((item) => (
