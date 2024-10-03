@@ -46,3 +46,33 @@
     z-index:3;
     width: 80%
   }
+
+  .body-view{
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+  }
+.seach-input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  .seach-view{
+    width: 60%;
+    padding: 10;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  .seach-icon{
+    height: 15px;
+    width: 15px;
+  }
+
+  .latest-view{
+    background-color: #6939b569;
+  }

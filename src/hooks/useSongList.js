@@ -8,11 +8,17 @@ const useSongList = () => {
   }, []);
 
   const getNowPlayMovies = async () => {
+   try{
     const movies = await fetch(url, options);
     const res = await movies.json();
     // console.log(res.results);
     setList(res?.results)
-  };
+   }
+   catch{
+    return list
+   }
+  }
+
   return list;
 };
 

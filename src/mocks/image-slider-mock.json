@@ -2,16 +2,16 @@
   "products": [
     {
       "id": 1,
-      "thumbnail": "https://i.ytimg.com/vi/bIgkPAiHMzM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzE-00Sp9gemH0BP6xwMhsgIPlzw"
+      "thumbnail": "../assets/slider1.jpg"
     },
     {
       "id": 2,
-      "thumbnail": "https://i.ytimg.com/vi/jofXWZbCF-Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3Nw52A0sbRjuT9BiVD91aXSiiug"
+      "thumbnail": "../assets/slider2.jpg"
     },
     {
       "id": 3,
     
-      "thumbnail": "https://i.ytimg.com/an_webp/HZ3fTJKOnrM/mqdefault_6s.webp?du=3000&sqp=CKT5vbYG&rs=AOn4CLAohHNEQ8Dzv3iO2WAeRhf1bPIqYg"
+      "thumbnail": "../assets/slider3.jpg"
     },
     {
       "id": 4,

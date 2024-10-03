@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import logo from './slider1.jpg'
 const ImageSlider = ({ data }) => {
   const [isActive, setActive] = useState(0);
 
@@ -39,7 +39,7 @@ const ImageSlider = ({ data }) => {
       <img
         alt="slider image"
         className=" h-[300px] w-full bg-yellow-600"
-        src={data[isActive]?.thumbnail}
+        src={logo}
       />
       <div className="absolute bottom-1 flex">
       {data.map((item)=><div key={item.id} className={`h-2 w-2 rounded m-2 ${item.id === isActive ? " bg-white":"bg-gray-400"}`}></div>)}
